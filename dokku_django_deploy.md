@@ -432,7 +432,7 @@ DATE=$(date +"%Y-%m-%d_%H-%M-%S")
 BACKUP_DIR="/var/backups/postgres"
 
 # Nome do serviço do banco de dados
-DB_SERVICE="manutsisdb"
+DB_SERVICE="nome_servico_db"
 
 # Caminho completo do arquivo de backup
 BACKUP_FILE="${BACKUP_DIR}/backup_${DB_SERVICE}_${DATE}.dump"
@@ -610,3 +610,7 @@ aws s3 cp <nome_do_arquivo> s3://seu-bucket-s3/caminho/
 ```
 aws s3 cp s3://seu-bucket-s3/caminho/<nome_do_arquivo> <caminho_destino_do_arquivo>
 ```
+
+## Fontes
+https://testdriven.io/blog/django-dokku/
+https://dokku.com/docs/deployment/application-deployment/
