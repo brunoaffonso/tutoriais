@@ -378,7 +378,7 @@ class AdvancedUserSearch extends Component
 </div>
 ```
 ---
-```blade
+```html
 <?php
 
 // 1. CRIANDO COMPONENTES
