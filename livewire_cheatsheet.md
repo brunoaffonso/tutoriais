@@ -24,7 +24,7 @@ php artisan livewire:publish --config
 Vou criar alguns exemplos progressivos para você entender melhor:
 
 ---
-``` 
+```php
 <?php
 
 namespace App\Http\Livewire;
@@ -59,7 +59,7 @@ class Counter extends Component
 }
 ```
 ---
-```
+```html
 {{-- resources/views/livewire/counter.blade.php --}}
 <div class="p-6 bg-white rounded-lg shadow-md">
     <h2 class="text-2xl font-bold mb-4">Contador: {{ $count }}</h2>
@@ -83,7 +83,7 @@ class Counter extends Component
 </div>
 ```
 ---
-```
+```php
 <?php
 
 namespace App\Http\Livewire;
@@ -153,7 +153,7 @@ class TodoList extends Component
 }
 ```
 ---
-```
+```html
 {{-- resources/views/livewire/todo-list.blade.php --}}
 <div class="max-w-md mx-auto bg-white rounded-lg shadow-md p-6">
     <h2 class="text-2xl font-bold mb-4">Lista de Tarefas</h2>
@@ -214,7 +214,7 @@ class TodoList extends Component
 </div>
 ```
 ---
-```
+```php
 <?php
 
 namespace App\Http\Livewire;
@@ -310,7 +310,7 @@ class AdvancedUserSearch extends Component
 }
 ```
 ---
-```
+```html
 {{-- resources/views/livewire/user-search.blade.php --}}
 <div class="container mx-auto p-4">
     <div class="bg-white rounded-lg shadow p-6">
@@ -378,7 +378,7 @@ class AdvancedUserSearch extends Component
 </div>
 ```
 ---
-```
+```php
 <?php
 
 // 1. CRIANDO COMPONENTES
