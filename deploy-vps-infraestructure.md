@@ -310,7 +310,7 @@ No servidor, gere token e kubeconfig:
 
 1) Gere um token:
 ```bash
-DEPLOY_TOKEN=$(kubectl -n apps create token deployer)
+DEPLOY_TOKEN=$(sudo kubectl -n apps create token deployer)
 echo "$DEPLOY_TOKEN"
 ```
 
