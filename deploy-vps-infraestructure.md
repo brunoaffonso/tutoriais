@@ -316,7 +316,7 @@ echo "$DEPLOY_TOKEN"
 
 2) Pegue o CA do cluster:
 ```bash
-CA_DATA=$(kubectl config view --raw -o jsonpath='{.clusters[0].cluster.certificate-authority-data}')
+CA_DATA=$(sudo kubectl config view --raw -o jsonpath='{.clusters[0].cluster.certificate-authority-data}')
 echo "$CA_DATA"
 ```
 
